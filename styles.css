@@ -1,0 +1,81 @@
+/* Styling the body */
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-image: url('showcase.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header with yellow background and centered blue text */
+header {
+    background-color: yellow;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    color: blue;
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* Main content container for each article section */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Styling each article (HTML, CSS, JS sections) */
+.artikel {
+    width: 60%;
+    background-color: lightgray;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid black;
+    position: relative;
+}
+
+/* Styling the heading (h2) inside each article */
+.artikel h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Aligning logos to the left inside each article */
+.artikel img {
+    width: 150px;
+    float: left; /* Keep image aligned to the left */
+    margin-right: 15px; /* Add space between image and text */
+}
+
+/* Clear float so text stays below the image */
+.clear {
+    clear: both;
+}
+
+/* Paragraph styling inside each article */
+.artikel p {
+    font-size: 1rem;
+    color: black;
+    margin-top: 15px; /* Adds space between the image and the text */
+}
+
+/* Sidebar with the combined HTML, CSS, JS logos at the bottom */
+.sidoft {
+    display: flex;
+    justify-content: center; /* Center the image */
+    margin-top: 40px;
+}
+
+.sidoft img {
+    background-image: url('logo-html-css-js.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    text-align: center;
+}
